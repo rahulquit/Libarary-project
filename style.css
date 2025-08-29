@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff8d6; /* Light yellow theme */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('bck.png') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+/* About Section */
+.about {
+    padding: 30px;
+}
+
+.about h2 {
+    color: #cc9900;
+    margin-bottom: 15px;
+}
+
+.about ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.about ul li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
